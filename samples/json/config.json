@@ -1,0 +1,7 @@
+{
+    "interceptorPort": 9001,
+    "target": {
+        "host": "http://localhost",
+        "port": 9000
+    }
+}

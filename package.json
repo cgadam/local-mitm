@@ -1,0 +1,39 @@
+{
+  "name": "local-mitm",
+  "version": "1.0.0",
+  "description": "A local \"man in the middle\" to intercept, analyze and replace http requests",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgadam/local-mitm.git"
+  },
+  "author": "Christian Adam <christian.g.adam@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "intercept",
+    "request",
+    "http",
+    "man in the middle",
+    "harcoded",
+    "response",
+    "harcoded response",
+    "communication",
+    "services",
+    "microservices"
+  ],
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect": "^3.6.3",
+    "http-proxy": "^1.16.2"
+  },
+  "bin": {
+    "local-mitm": "./bin/program.js"
+  },
+  "bugs": {
+    "url": "https://github.com/cgadam/local-mitm/issues"
+  },
+  "homepage": "https://github.com/cgadam/local-mitm"
+}
